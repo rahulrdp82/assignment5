@@ -1,0 +1,47 @@
+.Child1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.radio-buttons {
+  margin: 10px 0;
+}
+
+h2,
+h3 {
+  margin: 10px 0;
+}
+
+select {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#chart {
+  display: block;
+  margin: 20px auto 0;
+  overflow: visible; /* Ensure no clipping occurs */
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+
